@@ -200,7 +200,7 @@ h1 {
 }
 /* amazing-section */
 .my-amazing-parent{
-    margin-top: 30px;
+    margin-top: 70px;
     text-align: center;
 }
 .gallery{
@@ -236,4 +236,31 @@ h1 {
 }
 .box-6{
      grid-area: six;
+}
+/* footer */
+footer{
+    margin-top: 70px !important;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color:#fff7eb;
+}
+.footer-left p{
+    margin: 10px 0px;
+}
+footer form{
+    padding: 20px;
+}
+footer form  input, footer form textarea{
+    border: none;
+
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+
 }
